@@ -1,0 +1,210 @@
+/*-----------------------------------
+  #style.css
+-----------------------------------*/
+
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+
+:root {
+
+    /* Grediant Color  */
+    /*  --linear-gradient: linear-gradient(to top,to right, #050505, #020a20, #041d7e, #05164b, #070153); */
+    --linear-gradient:linear-gradient(to left,#031652, #050505);
+
+/* background: linear-gradient(225deg, #050505, #020a20, #
+
+
+    /* Bg Colors :  */
+    --bg-dark-purple: hsla(260, 62%, 11%, 1);
+    --bg-russian-violet: hsla(259, 61%, 14%, 1);
+    --bg-vivid-violet: hsla(273, 100%, 55%, 1);
+    --bg-sunglow: hsla(43, 100%, 61%, 1);
+    --bg-blue-jeans: hsla(202, 100%, 50%, 1);
+    --bg-white-alpha-10: hsla(0, 0%, 100%, 0.1);
+  
+    /* Text color */
+    --text-white: hsla(0, 0%, 100%, 1);
+    --text-black: hsla(0, 0%, 0%, 1);
+    --text-sunglow: hsla(43, 100%, 61%, 1);
+    --text-white-alpha-60: hsla(0, 0%, 100%, 0.6);
+  
+    /* Border color */
+    --border-blue-jeans: hsla(202, 100%, 50%, 1);
+    --border-white-alpha-10: hsla(0, 0%, 100%, 0.1);
+  
+    /* Font Family  */
+    --fontFamily-open-sans: 'Open Sans', sans-serif;
+  
+    /* Font Size's */
+    --fontSize-1: 4rem;
+    --fontSize-2: 3.2rem;
+    --fontSize-3: 2.4rem;
+    --fontSize-4: 2rem;
+    --fontSize-5: 1.8rem;
+    --fontSize-6: 1.6rem;
+    --fontSize-7: 1.4rem;
+  
+    /* Font Weight */
+  
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semiBold: 600;
+    --weight-bold: 700;
+  
+    /* Shadow  */
+    --shadow-1: 0 20px 30px hsla(0, 0%, 0%, 0.1);
+    --shadow-2: 0 20px 30px hsla(0, 0%, 0%, 0.2);
+  
+    /* Border Radius */
+    --radius-24: 24px;
+    --radius-40: 40px;
+    --radius-pill: 500px;
+  
+    /* spacing  :  */
+    --section-spacing: 100px;
+  }
+  
+  
+  
+  /*-----------------------------------*\
+    #RESET
+  \*-----------------------------------*/
+  *{
+    color: var(--text-white) !important;
+    font-family: var(--fontFamily-open-sans) !important;
+    font-weight: bold !important;
+    transition: 0.5s ease-in-out !important ;
+    text-decoration: none !important;
+    text-shadow: var(--shadow-2) !important;
+    text-align: center ;
+    margin-top: 5px;
+  }
+
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    background: var(--linear-gradient);
+    padding-top: 76px;
+    background-size: 300% 300%;
+  }
+  body{
+    overflow-x: hidden;
+    overflow-block: hidden;
+  }
+  
+  .logo{
+   
+    position: relative;
+    left: 30px;
+    font-size: var(--fontSize-5)!important;
+    
+  }
+  
+  .navbar {
+    z-index: 1030 !important; 
+    opacity: 1 !important;
+    background: rgba(86, 29, 210, 0.031); /* Semi-transparent background */
+    backdrop-filter: blur(8px); /* Blurs the area behind the card */
+    border: 1px solid rgba(118, 85, 218, 0.037);
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 10, 10, 0.1);
+  }
+
+  #nav{
+    text-indent: 55px;
+  }
+
+  /* Custom hover styles for navbar items */
+#nav .nav-link:hover {
+  color: blue !important; 
+  text-shadow: var(--shadow-2) !important;
+  /* padding: 0.1px; */
+}
+.active{
+  color: blue !important;
+}
+
+
+.hero-teg{
+  opacity: 0.5;
+  border-radius: 50px;
+  display: inline;
+  font-size: 15px !important;
+}
+
+.source{
+  font-size: 20px !important;
+  font-weight: lighter !important;
+}
+.feature-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.18) !important;
+  cursor: default;
+}
+
+.feature-box:hover ion-icon {
+  transform: scale(1.2);
+  color: #007bff;
+}
+
+.footer-title:hover {
+  color: var(--border-blue-jeans) !important;
+  transform: scale(1.05);
+}
+.footer-link:hover {
+  color: var(--border-blue-jeans) !important;
+  transform: translateY(-2px);
+  opacity: 1;
+}
+.tab-pane .card{
+  background-color: rgba(245, 245, 245, 0.055);
+  border: 2px solid rgba(245, 245, 245, 0.623);
+  border-radius: 30px;
+}
+.tab-pane img{
+  border-radius: 30px;
+  padding: 10px;
+}
+.tab-pane .card-text{
+  font-size: 15px;
+  text-justify: initial;
+  font-weight: lighter !important;
+}
+.card-title{
+  text-align: start !important;
+}
+.tab-pane .card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.18) !important;
+}
+.card .card-text{
+  text-align: left !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limits to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tab-pane .row{
+  margin-bottom: 20px ;
+}
+
+.privacy{
+  text-align: start !important;
+}
+
+.rate{
+  display: inline-block;
+  background-color:  rgba(133, 121, 247, 0.082);
+  border-radius: 10px;
+}
+.nav-item:hover{
+background-color: black;
+}

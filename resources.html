@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ======= Meta Teg : use Make Website Responsive========== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="">
+    <meta name="description"
+        content="">
+    <meta name="title" content="DevHelp - Your Go-To Developer Resources">
+    <!-- ========title=========== -->
+    <title>DevHelp - Your Go-To Developer Resources</title>
+
+    <!-- ===========Custom CSS========== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ========= BootStrap 5.3.x ============= -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+      <!--============ Google Fonts ======= -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        <!-- ===========header================ -->
+         <header class="row">
+            <nav class="navbar fixed-top navbar-expand-lg text-white">
+                <div class="container-fluid">
+                    <a class="text-white nav-link logo" href="index.html">DevHelp</a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navbar">
+                        <img src="https://www.clipartmax.com/png/full/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png" alt="" width="30">
+                    </button>
+                    <div class="collapse navbar-collapse" id="Navbar">
+                        <ul class="navbar-nav ms-auto" id="nav">  <!-- ms-auto aligns navbar to end -->
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link text-white active">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="resources.html" class="nav-link text-white">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Rate.html" class="nav-link">Rate Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+         </header>
+         <!-- Tab's  -->
+    <div class="container-fluild mt-1 pt-2"> 
+        <ul class="nav nav-pills justify-content-center mb-4" id="resourceTabs">
+            <li class="nav-item mx-1" role="presentation">
+                <a data-bs-target="#courses" class="nav-link  text-white border active" id="courses-tab" data-bs-toggle="tab"  type="button" >Courses</a>
+            </li>
+            <li class="nav-item mx-1" role="presentation">
+                <a class="nav-link  text-white border" id="ui-libraries-tab" data-bs-toggle="tab" data-bs-target="#ui-libraries" type="button">UI Libraries</a>
+            </li>
+            <li class="nav-item mx-1" role="presentation">
+                <a class="nav-link  text-white border " id="assets-tab" data-bs-toggle="tab" data-bs-target="#assets" type="button">Assets</a>
+            </li>
+            <li class="nav-item mx-1" role="presentation">
+                <a class="nav-link  text-white border " id="interview-tab" data-bs-toggle="tab" data-bs-target="#interview" type="button">Interview Preparation</a>
+            </li>
+            <li class="nav-item mx-1" role="presentation">
+                <a class="nav-link  text-white border " id="hackathons-tab" data-bs-toggle="tab" data-bs-target="#hackathons"type="button">Hackathons</a>
+            </li>
+            <li class="nav-item mx-1" role="presentation">
+                <a class="nav-link  text-white border " id="jobs-tab" data-bs-toggle="tab" data-bs-target="#jobs" type="button">Jobs</a>
+            </li>
+            <li class="nav-item mx-1" role="presentation">
+                <a class="nav-link  text-white  border" id="other-tab" data-bs-toggle="tab" data-bs-target="#other" type="button">Other</a>
+            </li>
+        </ul>
+
+        <style>
+            #resourceTabs .nav-link:hover {
+                background-color: blue !important;
+            }
+
+        </style>
+
+</div>
+    <div class="tab-content mt-4  p-4 "
+    id="myTabContent">
+
+
+            <div class="tab-pane fade show active" id="courses" role="tabpanel">
+                <div class="container">
+                    <div class="row" id="cardContainer">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/chai aur JavaScript.jpeg" class="card-img-top" alt="Chai aur Javascript">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chai aur Javascript</h5>
+                                    <p class="card-text">Hindi-based tutorial series that simplifies JavaScript concepts for beginners and developers.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/Mern.jpeg" class="card-img-top" alt="MERN">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chat App - MERN Stack</h5>
+                                    <p class="card-text">The MERN Stack Chat App by 6 Pack Programmer covers real-time messaging and authentication.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLt5mNkGuWcuWbFcwT8V5a_BpLVa1AVXD4" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/webScrappingCourse.jpeg" class="card-img-top" alt="Web Scraping Course">
+                                <div class="card-body">
+                                    <h5 class="card-title">Web Scraping Course</h5>
+                                    <p class="card-text">Master web scraping with WS Cube Tech’s free course! Learn to extract and analyze data using BeautifulSoup & Selenium.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLjVLYmrlmjGfSYkgH-_jgC8KMxyRzq7US" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/chai or python.jpeg" class="card-img-top" alt="Chai aur Python">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chai aur Python</h5>
+                                    <p class="card-text">"Chai aur Python" by Hitesh Choudhary makes learning Python easy in Hindi, covering syntax, loops, and functions in a friendly style.</p>
+                                    <a href="https://www.youtube.com/watch?v=Ca5DLSDfPec&list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/ChaiAurBackend.jpeg" class="card-img-top" alt="Chai aur Javascript">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chai aur backend</h5>
+                                    <p class="card-text">"Chai aur Backend" by Hitesh Choudhary is a Hindi-language series focused on backend development, where Hitesh teaches backend essentials using Node.js, Express, and MongoDB. From server setup to building APIs, handling databases, and user authentication, Hitesh covers all core aspects of backend development in a relaxed, conversational style, making it feel like learning over a cup of tea. Perfect for beginners or those looking to strengthen their backend skills, this series provides a hands-on, beginner-friendly approach to creating powerful backend systems.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/chaiordjango.jpeg" class="card-img-top" alt="MERN">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chai aur Django</h5>
+                                    <p class="card-text">Chai aur Django" by Hitesh Choudhary is a comprehensive Hindi-language tutorial series on Django, the powerful Python web framework. Designed for both beginners and those looking to deepen their understanding, this series breaks down Django's essential concepts, from setting up a project to building dynamic web applications. Hitesh explains everything in a laid-back, friendly style, making it feel like a relaxed conversation over tea. Whether you're new to web development or eager to add Django to your toolkit, this series makes learning Django accessible and enjoyable.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLu71SKxNbfoDOf-6vAcKmazT92uLnWAgy" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/clanguage.jpeg" class="card-img-top" alt="Web Scraping Course">
+                                <div class="card-body">
+                                    <h5 class="card-title">C Language Course</h5>
+                                    <p class="card-text">The C Language course by Apna College is a comprehensive introduction to C programming, covering everything from basic syntax to advanced concepts like pointers and memory management. This ongoing course is ideal for beginners looking to build a strong foundation in C, learn essential programming skills, and develop the problem-solving mindset needed for coding interviews and software development</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe25HU2y-3Kx6MBsasawd61U" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/CreativeWebDevlopment.jpeg" class="card-img-top" alt="Creative Web Developmement">
+                                <div class="card-body">
+                                    <h5 class="card-title">Creative Web Developmement</h5>
+                                    <p class="card-text">Unleash your creativity with the Creative Web Development Course by Sheriyansh Coding School. This course covers a wide range of technologies and tools to help you build visually stunning, interactive, and dynamic websites. From React and GSAP to Framer Motion, Three.js, and many other cutting-edge web development frameworks, this course teaches you how to craft creative web experiences. Whether you're a beginner or experienced developer, you'll learn how to combine these technologies to bring your creative ideas to life through engaging animations, 3D graphics, and responsive designs.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLbtI3_MArDOnFHLrQOqWFl1zLDFi_om5w" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/DataScienceCourse.jpeg" class="card-img-top" alt="DataScienceCourse">
+                                <div class="card-body">
+                                    <h5 class="card-title">Data Science Course</h5>
+                                    <p class="card-text">Learn data science from scratch with the 27-hour comprehensive course by WS Cube Tech. This beginner-friendly course covers all essential topics, including Python for data analysis, statistics, machine learning, data visualization, and real-world projects. With detailed explanations and hands-on exercises, it’s the ultimate resource for anyone looking to build a strong foundation in data science and start a career in this in-demand field.</p>
+                                    <a href="https://www.youtube.com/watch?v=gDZ6czwuQ18" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/DbmsPlacementCourse.jpeg" class="card-img-top" alt="DbmsPlacementCourse">
+                                <div class="card-body">
+                                    <h5 class="card-title">DBMS Placement Course</h5>
+                                    <p class="card-text">DBMS Placement Series by CodeHelp is a detailed course focused on Database Management Systems (DBMS), designed to help learners prepare for placement interviews. The series covers core DBMS concepts such as normalization, indexing, SQL queries, transactions, and database design. With easy-to-follow explanations in Hindi, this series is ideal for those aiming to strengthen their DBMS knowledge and ace their placement exams or technical interviews</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/dsawithjavakunal.jpeg" class="card-img-top" alt="Dsa with Java by Kunal">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dsa With JAVA</h5>
+                                    <p class="card-text">Kunal Kushwaha's DSA Course is a detailed and structured guide designed to help developers master Data Structures and Algorithms (DSA). The course covers foundational concepts like arrays, linked lists, stacks, queues, trees, graphs, and sorting algorithms, while also diving into more advanced topics such as dynamic programming, greedy algorithms, and graph algorithms. Kunal’s teaching style is known for breaking down complex topics into digestible pieces, with plenty of coding examples and problem-solving approaches. This course is ideal for developers preparing for technical interviews, competitive programming, or anyone looking to strengthen their algorithmic thinking.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/Gsap.jpeg" class="card-img-top" alt="GSAP Animation Course">
+                                <div class="card-body">
+                                    <h5 class="card-title">GSAP Animation Course</h5>
+                                    <p class="card-text">Unlock the power of GSAP (GreenSock Animation Platform) with this comprehensive course by Sheriyansh Coding School. Whether you're a beginner or looking to enhance your animation skills, this course covers GSAP animations using plain HTML, CSS, and JavaScript as well as React for dynamic animations. Learn how to create smooth, interactive animations for websites and web applications, from basic animations to advanced techniques. With practical examples and real-world projects, this is the best GSAP course for mastering animations in both traditional web development and React apps.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLbtI3_MArDOnIIJxB6xFtpnhM0wTwz0x6" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/javawithDsa.jpeg" class="card-img-top" alt="javawithDsa">
+                                <div class="card-body">
+                                    <h5 class="card-title">DSA with Java</h5>
+                                    <p class="card-text">Java with DSA by Apna College is a comprehensive course that combines Java programming fundamentals with in-depth coverage of Data Structures and Algorithms. This course is perfect for beginners and intermediate learners, covering everything from Java basics to advanced DSA concepts, helping students build strong coding skills for interviews and competitive programming.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/Nextjs.jpeg" class="card-img-top" alt="NEXT.js Full Course with Project">
+                                <div class="card-body">
+                                    <h5 class="card-title">NEXT.js Full Course with Project</h5>
+                                    <p class="card-text">Unlock the power of Next.js with this hands-on course by Sheriyansh Coding School, where you'll learn to build a series of real-world projects using Next.js and AI integration. This course covers everything from the fundamentals of Next.js, such as server-side rendering (SSR) and static site generation (SSG), to advanced topics like integrating AI in your projects. With practical examples, you'll learn how to use Next.js for dynamic web applications and enhance them by integrating AI technologies such as chatbots, AI-driven data analytics, and more. This course is perfect for developers who want to master Next.js and implement cutting-edge AI features into their applications.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLaBeGKL1tOU3Gl_x2EzOMPPpAWq9znZWt" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/reactApp.jpeg" class="card-img-top" alt="React-Native Projects">
+                                <div class="card-body">
+                                    <h5 class="card-title">React-Native Projects</h5>
+                                    <p class="card-text">Build a full-stack React Native e-learning app with this comprehensive playlist. In this series, you will learn how to create a dynamic mobile application using Expo, Tailwind CSS, HyGraph, AdMob, and GraphQL. Starting with setting up your React Native project, you’ll use Tailwind CSS for a custom user interface, HyGraph to manage your content, and integrate AdMob for displaying ads. You'll also learn how to use GraphQL to efficiently fetch data, and build essential screens like the home screen, course list, course details, and user profile. This playlist is perfect for developers who want to create powerful, full-stack React Native applications and dive into e-learning app development</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLaBeGKL1tOU1KIigBlacZo6WgH18lDWcu" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/learnReactwithProject.jpeg" class="card-img-top" alt="Learn React with Project">
+                                <div class="card-body">
+                                    <h5 class="card-title">Learn React with Project</h5>
+                                    <p class="card-text">Master React with this in-depth course that focuses on building real-world projects. Designed for developers looking to enhance their React skills, this course takes you through a series of functional projects, teaching you how to build dynamic, interactive user interfaces. You will learn core concepts such as state management, hooks, routing, and component-based architecture, all while working on practical projects that can be used in real applications. Whether you're a beginner or an experienced developer, this course offers hands-on experience to help you create professional-grade React applications.</p>
+                                    <a href="https://www.youtube.com/playlist?list=PLaBeGKL1tOU3vlLZemThCmMhtApXN9AEq" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Load More Button -->
+                    <div class="text-center mt-4">
+                        <button id="loadMore" class="btn btn-outline-primary btn-outline-secondary px-4 py-2">Load More</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="tab-pane fade" id="ui-libraries" role="tabpanel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/UI Libraries/ant.png" class="card-img-top" alt="Ant Design">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ant Design</h5>
+                                    <p class="card-text">Ant Design is a comprehensive UI design system and React component library that follows Ant Design's principles. It provides a rich set of high-quality components, like tables, forms, buttons, date pickers, and modals, to help developers quickly build enterprise-level applications. The library is widely used for building clean, consistent, and professional-looking UIs. It also offers customization options through its powerful theming system and a wide array of design guidelines for developers.</p>
+                                    <a href="https://ant.design/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/UI Libraries/blueprint.png" class="card-img-top" alt="Blueprint">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blueprint</h5>
+                                    <p class="card-text">Blueprint is a React-based UI toolkit for building complex, data-dense web interfaces. Developed by Palantir, it’s designed for building enterprise applications with tables, forms, menus, date pickers, and charts. Blueprint's components are optimized for large-scale applications and include useful features such as keyboard navigation, tooltips, and popovers. It's known for being customizable and robust, making it suitable for projects that require heavy data interaction and management.</p>
+                                    <a href="https://blueprintjs.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/UI Libraries/creativetim.png" class="card-img-top" alt="Creative Tim">
+                                <div class="card-body">
+                                    <h5 class="card-title">Creative Tim</h5>
+                                    <p class="card-text">Creative Tim provides both premium and free Tailwind UI kits, components, and templates that are designed to help you create beautiful, functional web applications. With a focus on ease of use and flexibility, their templates are fully responsive and customizable, making them ideal for both startups and large enterprises.</p>
+                                    <a href="https://www.creative-tim.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/UI Libraries/element.png" class="card-img-top" alt="Element UI">
+                                <div class="card-body">
+                                    <h5 class="card-title">Element UI</h5>
+                                    <p class="card-text">Element UI is a desktop-first UI toolkit for building modern web applications, designed primarily for Vue.js. However, it offers an easy way for developers to integrate Element UI with React. It features a rich set of components such as forms, tables, navigation, modals, and alerts. Known for its clean design and comprehensive set of ready-made components, Element UI makes it simple to build polished, functional user interfaces with ease.</p>
+                                    <a href="https://element.eleme.io/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/UI Libraries/gsap.png" class="card-img-top" alt="GSAP Animation">
+                                <div class="card-body">
+                                    <h5 class="card-title">GSAP Animation</h5>
+                                    <p class="card-text">GSAP is a high-performance JavaScript library for creating rich, interactive animations. It's widely regarded as one of the most powerful and reliable animation engines for web development. GSAP can animate virtually any CSS property, SVG, canvas, and even React components. With its robust set of features, it's used for building everything from simple transitions to complex, timeline-based animations.</p>
+                                    <a href="https://gsap.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/UI Libraries/headless.png" class="card-img-top" alt="Headless UI
+                                Headless UI">
+                                <div class="card-body">
+                                    <h5 class="card-title">Headless UI</h5>
+                                    <p class="card-text">Headless UI offers a set of completely unstyled, fully accessible UI components for React and Vue.js. Built by the creators of Tailwind CSS, these components are designed to provide complete control over the look and feel, while ensuring accessibility and usability are never compromised.</p>
+                                    <a href="https://headlessui.com/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/UI Libraries/hyper.png" class="card-img-top" alt="
+                                Hyper UI">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Hyper UI</h5>
+                                    <p class="card-text">Hyper UI is a free and open-source collection of Tailwind CSS components and templates that focuses on simple, flexible, and customizable UI elements. It helps developers quickly build responsive and accessible interfaces with minimal effort.</p>
+                                    <a href="https://www.hyperui.dev/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/UI Libraries/library_1daac551-355e-40ba-b1a0-f6ff6963182e.png" class="card-img-top" alt="Tailwind Toolbox">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tailwind Toolbox</h5>
+                                    <p class="card-text">Tailwind Toolbox offers a collection of free Tailwind CSS templates, components, and resources for developers. Whether you're looking for ready-to-use landing pages, UI kits, or individual elements like navigation bars and footers, you can find a wide range of options to speed up development.</p>
+                                    <a href="https://tailwindtoolbox.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/UI Libraries/motion.png" class="card-img-top" alt="Motion UI">
+                                <div class="card-body">
+                                    <h5 class="card-title">Motion UI</h5>
+                                    <p class="card-text">React Motion is a library for animating components in React with physics-based motion. It allows you to build interactive UIs where elements move with real-world physics, such as inertia, velocity, and damping. React Motion is simple to integrate and provides a declarative API to animate properties like position, scale, and opacity.</p>
+                                    <a href="https://zurb.com/playground/motion-ui" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/UI Libraries/next.png" class="card-img-top" alt="Next UI">
+                                <div class="card-body">
+                                    <h5 class="card-title">Next UI</h5>
+                                    <p class="card-text">Next UI is a modern React UI library designed to help developers quickly build beautiful and responsive user interfaces. It offers a rich set of components like buttons, modals, tables, forms, and more, all with a sleek, modern design. Next UI is built with accessibility in mind and is fully customizable, allowing you to easily adapt the components to your project's design system.</p>
+                                    <a href="https://www.heroui.com/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/UI Libraries/radix.png" class="card-img-top" alt="Radix UI">
+                                <div class="card-body">
+                                    <h5 class="card-title">Radix UI</h5>
+                                    <p class="card-text">Radix UI is a low-level UI component library for building accessible, unstyled, and fully customizable components in React. It provides building blocks for developing complex UIs with high accessibility standards while maintaining complete control over the design. Radix is ideal for developers who prefer styling their own components while ensuring accessibility.</p>
+                                    <a href="https://www.radix-ui.com/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/UI Libraries/ReactBootstrap.png" class="card-img-top" alt="React Bootstrap">
+                                <div class="card-body">
+                                    <h5 class="card-title">React Bootstrap</h5>
+                                    <p class="card-text">React Bootstrap is a popular library that provides Bootstrap components as React components. It enables developers to quickly build responsive web interfaces using pre-designed UI elements such as buttons, modals, navbars, and forms, but with the flexibility and power of React. It helps developers integrate Bootstrap with React projects without relying on jQuery. It’s lightweight and customizable, making it a great option for building modern React applications.</p>
+                                    <a href="https://react-bootstrap.github.io/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/UI Libraries/reactSpring.png" class="card-img-top" alt="React Spring">
+                                <div class="card-body">
+                                    <h5 class="card-title">React Spring</h5>
+                                    <p class="card-text">React Spring is a powerful library for building complex animations in React applications. It uses spring-based physics to create smooth, interactive animations that feel natural. The library is highly flexible, enabling developers to animate components, transitions, and even gestures with ease. Whether you're working on simple UI transitions or more complex animations, React Spring allows for both declarative and imperative APIs.</p>
+                                    <a href="https://react-spring.dev/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/UI Libraries/semantic.png" class="card-img-top" alt="Semantic UI">
+                                <div class="card-body">
+                                    <h5 class="card-title">Semantic UI</h5>
+                                    <p class="card-text">Semantic UI is a development framework that helps you create beautiful, responsive, and customizable user interfaces quickly. While it is not exclusive to React, it provides integration for React, making it easy to use its extensive set of pre-built components like buttons, cards, modals, and dropdowns. The Semantic UI framework relies on human-friendly HTML, making it highly readable and easy for developers to customize and extend.</p>
+                                    <a href="https://semantic-ui.com/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/UI Libraries/tailblocks.png" class="card-img-top" alt="Tailblocks">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tailblocks</h5>
+                                    <p class="card-text">Tailblocks is a free, open-source library that provides pre-designed Tailwind CSS blocks and sections. These blocks are ready to be dropped into your project, helping you rapidly build landing pages, dashboards, or other types of web applications.</p>
+                                    <a href="https://tailblocks.cc/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item d-none">
+                            <div class="card">
+                                <img src="assets/UI Libraries/tailwind.png" class="card-img-top" alt="
+                                Tailwind CSS">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Tailwind CSS</h5>
+                                    <p class="card-text">A collection of high-quality, professionally designed UI components built with Tailwind CSS. Tailwind UI offers a comprehensive set of components, from forms and modals to complex navigation bars, that can be easily integrated into any Tailwind project. This is a premium product, and you get access to lifetime updates with your purchase..</p>
+                                    <a href="https://tailwindui.com/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="text-center mt-4">
+                    <button id="loadMoreUI" class="btn btn-outline-primary btn-outline-secondary px-4 py-2">Load More</button>
+                </div>
+                </div>
+            </div>
+            
+    
+            <div class="tab-pane fade" id="assets" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/A/adobecolor.png" class="card-img-top" alt="Adobe Color">
+                                <div class="card-body">
+                                    <h5 class="card-title">Adobe Color</h5>
+                                    <p class="card-text">A powerful color palette creator and exploration tool by Adobe, Adobe Color allows designers to build and experiment with color schemes. With various modes and accessibility options, it’s ideal for creating cohesive designs for web, branding, and UI/UX.</p>
+                                    <a href="https://color.adobe.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/A/clearpng.png" class="card-img-top" alt="CleanPNG">
+                                <div class="card-body">
+                                    <h5 class="card-title">CleanPNG</h5>
+                                    <p class="card-text">CleanPNG offers a collection of transparent PNG images that are free to download and use. It’s a great resource for designers and marketers looking for logos, icons, and illustrations.</p>
+                                    <a href="https://www.cleanpng.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/A/color.png" class="card-img-top" alt="Color Hunt">
+                                <div class="card-body">
+                                    <h5 class="card-title">Color Hunt</h5>
+                                    <p class="card-text">A popular resource for designers and developers to explore beautiful color palettes for any project. Color Hunt offers a wide selection of hand-picked color combinations, perfect for creating visually appealing designs and enhancing creativity.</p>
+                                    <a href="https://colorhunt.co/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/A/coverr.png" class="card-img-top" alt="
+                                Coverr">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Coverr</h5>
+                                    <p class="card-text">Coverr provides free, high-quality stock videos for personal and commercial use. The videos are free to download and use without the need for attribution.</p>
+                                    <a href="https://coverr.co/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/A/flaticon.jpeg" class="card-img-top" alt="Flat Icon">
+                                <div class="card-body">
+                                    <h5 class="card-title">Flat Icon</h5>
+                                    <p class="card-text">Flaticon features one of the largest collections of free vector icons, available in various formats including SVG and PNG. With thousands of icon packs, it’s an excellent resource for creating consistent designs for websites, applications, and presentations..</p>
+                                    <a href="https://www.flaticon.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/A/icon.jpeg" class="card-img-top" alt="Icons8
+                                Headless UI">
+                                <div class="card-body">
+                                    <h5 class="card-title">Icons8</h5>
+                                    <p class="card-text">Icons8 provides a collection of free animated icons designed to enhance your web and mobile applications. These icons are fully customizable and work with tools like Figma and Adobe After Effects. Explore a range of styles and formats for your creative projects.</p>
+                                    <a href="https://icons8.com/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/A/motionplaces.png" class="card-img-top" alt="
+                                MotionPlaces">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        MotionPlaces</h5>
+                                    <p class="card-text">MotionPlaces offers free high-definition stock videos of landscapes and cityscapes, perfect for use in projects such as films, ads, and presentations.</p>
+                                    <a href="https://www.motionplaces.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/A/seeklogo.png" class="card-img-top" alt="Seek Logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Seek Logo</h5>
+                                    <p class="card-text">A vast online logo archive, Seeklogo provides access to thousands of vector logos across various industries. Ideal for designers looking for inspiration or free logos for projects, Seeklogo offers high-quality SVG and AI formats for easy use in branding and design..</p>
+                                    <a href="hhttps://seeklogo.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="interview" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/Interview Prepration/codesignal.png" class="card-img-top" alt="CodeSignal">
+                                <div class="card-body">
+                                    <h5 class="card-title">CodeSignal</h5>
+                                    <p class="card-text">CodeSignal offers coding assessments, practice problems, and interview preparation for job seekers and companies. It focuses on building a strong coding foundation and helping individuals prepare for technical interviews.</p>
+                                    <a href="https://www.codesignal.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/Interview Prepration/glassdoor.png" class="card-img-top" alt="Glassdoor">
+                                <div class="card-body">
+                                    <h5 class="card-title">Glassdoor</h5>
+                                    <p class="card-text">Glassdoor provides company reviews, salary data, and interview experiences shared by employees and job seekers. It’s a great resource for researching company culture and preparing for technical and behavioral interviews.</p>
+                                    <a href="https://www.glassdoor.co.in/index.htm?countryRedirect=true" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/Interview Prepration/greek.png" class="card-img-top" alt="GeeksforGeeks">
+                                <div class="card-body">
+                                    <h5 class="card-title">GeeksforGeeks</h5>
+                                    <p class="card-text">GeeksforGeeks is a comprehensive platform for learning data structures, algorithms, and preparing for coding interviews. It offers tutorials, articles, coding problems, and interview questions for students and professionals.</p>
+                                    <a href="https://www.geeksforgeeks.org/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/Interview Prepration/hackerRank.png" class="card-img-top" alt="HackerRank">
+                                <div class="card-body">
+                                    <h5 class="card-title">HackerRank</h5>
+                                    <p class="card-text">HackerRank offers a platform to practice coding and prepare for technical interviews through a wide variety of problems in algorithms, data structures, AI, and more. It also provides interview preparation kits for various companies.</p>
+                                    <a href="https://www.hackerrank.com/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/Interview Prepration/interviewBit.png" class="card-img-top" alt="InterviewBit">
+                                <div class="card-body">
+                                    <h5 class="card-title">InterviewBit</h5>
+                                    <p class="card-text">InterviewBit offers a curated path to prepare for coding interviews, focusing on coding problems, mock interviews, and interview experiences. It covers a wide range of topics like algorithms, data structures, and system design..</p>
+                                    <a href="https://www.interviewbit.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/Interview Prepration/leetcode.png" class="card-img-top" alt="LeetCode
+                                Headless UI">
+                                <div class="card-body">
+                                    <h5 class="card-title">LeetCode</h5>
+                                    <p class="card-text">LeetCode is a popular platform for preparing for technical interviews. It offers a large collection of coding problems to help with algorithm practice, data structure mastery, and interview questions for top tech companies..</p>
+                                    <a href="https://leetcode.com/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/Interview Prepration/tech.png" class="card-img-top" alt="
+                                Tech Interview Handbook">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Tech Interview Handbook</h5>
+                                    <p class="card-text">Tech Interview Handbook offers a comprehensive guide to preparing for software engineering interviews, covering everything from coding challenges to system design and behavioral questions, with an emphasis on problem-solving techniques.</p>
+                                    <a href="https://www.techinterviewhandbook.org/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="hackathons" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/Hackathons/angelhack.png" class="card-img-top" alt="
+                                AngelHack">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        AngelHack</h5>
+                                    <p class="card-text">AngelHack hosts innovative hackathons that bring together developers, designers, and entrepreneurs to solve real-world challenges. These hackathons emphasize creativity, teamwork, and entrepreneurship, offering participants a platform to build impactful solutions. Many events include mentorship opportunities, networking, and a chance to pitch ideas to industry experts. AngelHack also supports participants with resources to refine their projects post-event.</p>
+                                    <a href="https://angelhack.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/Hackathons/dev.png" class="card-img-top" alt="dev">
+                                <div class="card-body">
+                                    <h5 class="card-title">Devfolio</h5>
+                                    <p class="card-text">A leading platform for developers to participate in hackathons, network, and showcase their projects. Devfolio hosts events across domains like Web3, AI, and more, offering opportunities to learn, compete, and win. Ideal for building skills, connecting with top talent, and enhancing your portfolio.</p>
+                                    <a href="https://devfolio.co/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/Hackathons/hack2skill.png" class="card-img-top" alt="hack2skill">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hack2Skill</h5>
+                                    <p class="card-text">A platform for developers, designers, and tech enthusiasts offering hackathons, coding challenges, and workshops. Hack2Skill provides opportunities to build skills, solve real-world problems, and network with a vibrant tech community. From beginner to advanced levels, it's a great place to build a portfolio and stay updated with industry trends.</p>
+                                    <a href="https://hack2skill.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/Hackathons/hackerearth.png" class="card-img-top" alt="HackerEarth">
+                                <div class="card-body">
+                                    <h5 class="card-title">HackerEarth</h5>
+                                    <p class="card-text">HackerEarth organizes a wide variety of hackathons, ranging from community-driven events to corporate-sponsored challenges, specifically catering to Indian developers. These hackathons cover diverse domains such as AI, machine learning, blockchain, and IoT, enabling developers to enhance their skills and build innovative projects. With an easy-to-use interface and a community of developers, HackerEarth is a preferred platform for coders seeking competitive opportunities and recognition.</p>
+                                    <a href="https://www.hackerearth.com/challenges/hackathon/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/Hackathons/unstop.png" class="card-img-top" alt="Unstop">
+                                <div class="card-body">
+                                    <h5 class="card-title">Unstop</h5>
+                                    <p class="card-text">and professionals to participate in competitions, hackathons, and internships. Unstop connects you to opportunities in domains like coding, business, and design, with challenges from top companies to help you build skills, network, and advance your career..</p>
+                                    <a href="https://unstop.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="jobs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/job/hackerRank.png" class="card-img-top" alt="HackerRank job section">
+                                <div class="card-body">
+                                    <h5 class="card-title">HackerRank job section</h5>
+                                    <p class="card-text">HackerRank is a technical hiring platform that offers coding challenges and competitions to assess and recruit talent for software development roles. It helps employers to evaluate the coding skills of job candidates. Users can solve coding challenges across various domains like algorithms, artificial intelligence, databases, and more. It is often used by companies to screen candidates for developer positions. Candidates can also use HackerRank to practice coding and improve their skills.</p>
+                                    <a href="https://www.hackerrank.com/apply" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/job/indeed.png" class="card-img-top" alt="Indeed">
+                                <div class="card-body">
+                                    <h5 class="card-title">Indeed</h5>
+                                    <p class="card-text">Indeed is one of the world's largest job search platforms, connecting millions of job seekers with employers. It allows users to search for jobs by title, company, location, and salary range. It offers a variety of job listings, ranging from entry-level to executive positions. Users can upload resumes, apply for jobs, and track applications. In addition, the site includes reviews about companies, salary data, and career advice.</p>
+                                    <a href="https://blueprintjs.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/job/linkedin.png" class="card-img-top" alt="LinkedIn">
+                                <div class="card-body">
+                                    <h5 class="card-title">LinkedIn </h5>
+                                    <p class="card-text">LinkedIn is a professional networking site that also functions as a job search platform. Users can create profiles, network with professionals, and search for job listings. It includes job opportunities from various industries, ranging from entry-level positions to senior management roles. LinkedIn allows users to directly apply to jobs, receive recommendations, and interact with recruiters. It also offers paid features such as LinkedIn Premium for more advanced networking and job-seeking tools.</p>
+                                    <a href="https://www.linkedin.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/job/naukri.png" class="card-img-top" alt="Naukri">
+                                <div class="card-body">
+                                    <h5 class="card-title">Naukri</h5>
+                                    <p class="card-text">Naukri is one of the largest job portals in India, offering a wide range of job listings in various industries. It helps users to create a professional resume, apply for jobs, and connect with recruiters. The platform offers career resources, job alerts, and tools for job seekers to manage their applications. Naukri also provides premium services for job seekers and recruiters for a fee.</p>
+                                    <a href="https://element.eleme.io/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item ">
+                            <div class="card">
+                                <img src="assets/job/WellFound.png" class="card-img-top" alt="Wellfound">
+                                <div class="card-body">
+                                    <h5 class="card-title">Wellfound</h5>
+                                    <p class="card-text">Wellfound is a leading platform for startup jobs. It connects job seekers with innovative startups looking to hire talent. It offers job listings in various fields such as tech, design, marketing, and more. The site also allows users to see detailed company profiles, including funding status, size, and culture. Users can apply directly for jobs and browse startup opportunities globally.</p>
+                                    <a href="https://wellfound.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+              
+                </div>
+            </div>
+            <div class="tab-pane fade" id="other" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/other/carbon.png" class="card-img-top" alt="Carbon">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carbon</h5>
+                                    <p class="card-text">Carbon is a free tool for creating beautiful, shareable images of code snippets. It supports syntax highlighting, a wide range of themes, and customizable styles, making it perfect for sharing code on social media or documentation with aesthetic appeal.</p>
+                                    <a href="https://carbon.now.sh/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/other/draw.png" class="card-img-top" alt="Draw.io">
+                                <div class="card-body">
+                                    <h5 class="card-title">Draw.io</h5>
+                                    <p class="card-text">Draw.io, also known as Diagrams.net, is a free, user-friendly tool for creating flowcharts, UML diagrams, wireframes, and system architectures. It supports cloud storage integration like Google Drive, OneDrive, and Dropbox. Ideal for coders planning workflows or documenting system designs visually.</p>
+                                    <a href="https://app.diagrams.net/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/other/figma.png" class="card-img-top" alt="Figma">
+                                <div class="card-body">
+                                    <h5 class="card-title">Figma</h5>
+                                    <p class="card-text">Figma is a powerful design and prototyping tool that allows developers to collaborate on UI/UX designs in real time. It offers features like version control, prototyping, and seamless handoffs to developers. A great choice for creating intuitive, interactive designs for web and mobile apps.</p>
+                                    <a href="https://www.figma.com/" class="btn btn-outline-primary   text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 card-item">
+                            <div class="card">
+                                <img src="assets/other/over.png" class="card-img-top" alt="Over API">
+                                <div class="card-body">
+                                    <h5 class="card-title">Over API</h5>
+                                    <p class="card-text">OverAPI is a curated collection of cheat sheets for various programming languages, frameworks, and tools. It provides quick access to syntax, commands, and best practices, making it a must-have reference for developers of all experience levels.</p>
+                                    <a href="https://overapi.com/" class="btn btn-outline-primary  text-white border text-decoration-none">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                    
+                    </div>
+
+              
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =================Footer================== -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="mb-3 footer-title" style="font-weight: var(--weight-regular) !important; font-size: var(--fontSize-4); transition: all 0.3s ease;">DevHelp</h3>
+                    <p class="mb-4 footer-desc" style="font-size: 1.1rem; font-weight: 300 !important; opacity: 0.7; transition: all 0.3s ease;">
+                        Discover UI components, top courses, design assets, coding roadmaps, and interview prep—everything you need in one place.
+                    </p>
+                </div>
+        
+                    <div class="col-md-6">
+                    <ul class="list-unstyled d-flex justify-content-center gap-4 mt-4">
+                        <li>
+                            <a href="index.html" class="nav-link footer-link" style="font-weight: var(--weight-regular) !important; font-size : 20px; transition: all 0.3s ease; position: relative;">
+                                Home
+                                <span style="position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: var(--border-blue-jeans); transition: width 0.3s ease;"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Rate.html" class="nav-link footer-link" style="font-weight: var(--weight-regular) !important; font-size : 20px; transition: all 0.3s ease; position: relative;">
+                                Rate Us
+                                <span style="position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: var(--border-blue-jeans); transition: width 0.3s ease;"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="nav-link footer-link" style="font-weight: var(--weight-regular) !important; font-size : 20px; transition: all 0.3s ease; position: relative;">
+                                About Us
+                                <span style="position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: var(--border-blue-jeans); transition: width 0.3s ease;"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacy.html" class="nav-link footer-link" style="font-weight: var(--weight-regular) !important; font-size : 20px; transition: all 0.3s ease; position: relative;">
+                                Privacy Policy
+                                <span style="position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: var(--border-blue-jeans); transition: width 0.3s ease;"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="mt-4 mb-0 copyright-text" style="font-size: 1rem; font-weight: 300 !important; opacity: 0.7; transition: all 0.3s ease;">
+                        Copyright © 2024. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- ===========Custom JavaScript ========== -->
+    <script src="script.js"></script>
+
+     <!-- ======Ionicon script ==========  -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+     <!-- ============Gsap============= -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        
+</body>
+</html>
