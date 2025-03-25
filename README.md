@@ -2,7 +2,7 @@
 
 DevHelp is a platform that provides top-quality **coding resources**, including **learning materials, interview preparation, hackathon guides, job listings,** and more!
 
-🌐 **Live Website:** [devhelp.app](https://devhelp.app)
+🌐 **Live Website:** [devhelp.app](https://dev-help-sigma.vercel.app)
 
 ## 🔹 Features
 - 📚 **Coding Tutorials & Learning Paths**
